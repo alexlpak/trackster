@@ -180,7 +180,7 @@ function empty(data) {
 Trackster.searchTracksByTitle = function(title) {
   const API_KEY = '49a4c1e4208661927b34dbe5fea78b8c';
   $.ajax({
-    url: 'http://ws.audioscrobbler.com/2.0/?method=track.search&track=' + title + '&api_key=' + API_KEY + '&format=json',
+    url: 'https://ws.audioscrobbler.com/2.0/?method=track.search&track=' + title + '&api_key=' + API_KEY + '&format=json',
     datatype: 'jsonp',
     success: function(data) {
       Trackster.renderTracks(data.results.trackmatches.track);
