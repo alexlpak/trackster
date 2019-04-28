@@ -1,0 +1,127 @@
+/*
+  Custom styles for Trackster App
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(35, 2, 63);
+  padding: 2.5rem 0;
+}
+
+.header h1 {
+  font-family: Righteous, sans-serif;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 171);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+::placeholder {
+  color: rgb(191, 191, 191);
+}
+
+input {
+  border: none;
+  border-radius: 2rem;
+  padding: .5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+#submit {
+  background-color: rgb(255, 0, 171);
+  padding: .5rem 1.5rem;
+  text-align: center;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  margin-left: .5rem;
+  transition: background-color 150ms ease;
+}
+
+#submit:hover {
+  background-color: rgb(255, 102, 204);
+  transition: background-color 150ms ease;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+/* Title Bar */
+.title {
+  background-color: rgb(104, 0, 255);
+  color: white;
+  font-weight: 500;
+  padding: .5rem 0;
+}
+
+/* Content */
+#content {
+  padding: .5rem 0;
+  border-bottom: 1px solid rgb(191, 191, 191);
+  transition: background-color 200ms ease;
+}
+
+#content:hover {
+  background-color: rgb(239, 237, 242);
+  transition: background-color 200ms ease;
+}
+
+#play {
+  color: rgb(255, 0, 171);
+  font-size: 1.5rem;
+}
+
+#play:hover {
+  color: rgb(255, 102, 204);
+  transition: color 150ms ease;
+}
+
+#content img {
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+}
+
+#trackList {
+  height: 65vh;
+}
+
+#unicorn {
+  height: 200px;
+}
+
+.empty {
+  color: gray;
+  height: 100%;
+}
+
+.initial_search {
+  height: 100%;
+  color: gray;
+}
